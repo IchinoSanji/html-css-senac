@@ -1,0 +1,209 @@
+body {
+    background-image: url(./img/714040.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: end; 
+  list-style: none; 
+  padding: 0; 
+  text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+  position: fixed;
+  padding-left: 10px;
+}
+
+.nav-item {
+  margin-right: 30px; 
+  font-size: 18px;
+  text-shadow: 4px 2px 4px rgba(217, 217, 217, 1);
+}
+.nav-link{
+  text-decoration: none !important;
+  color:rgba(0, 0, 0, 1);
+  transition: all .3s;
+}
+.nav-link:hover{
+  color:rgba(223, 0, 0, 1);
+}
+section h1 {
+  text-align: center;
+  font-size: 54PX;
+  color: rgba(223, 0, 0, 1);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  font-family: 'Kratos TrueType - GOD $ WAR';
+}
+section h3{
+  color: rgba(217, 217, 217, 1);
+  text-align: center;
+  font-size: 36px;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 1);
+  font-family: 'DM Sans', sans-serif;
+}
+.container-botoes{
+  text-align: center;
+  margin-top: 50px; 
+}
+
+.button1 {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: rgba(223, 0, 0, 1); 
+  color: rgba(6, 9, 15, 1); 
+  text-decoration: none; 
+  border-color: black;
+  margin: 0 10px; 
+  box-shadow: 4px 4px 6px rgba(223, 0, 0, 1);
+  font-family: 'DM Sans', sans-serif;
+  transition: all .3s;
+}
+.button2 {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: rgba(255, 255, 255, 1); 
+  color: rgba(6, 9, 15, 1); 
+  text-decoration: none; 
+  border-color: black;
+  margin: 0 10px; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 6px rgba(255, 255, 255, 1);
+  font-family: 'DM Sans', sans-serif;
+  transition: all .3s;
+}
+
+.button1:hover {
+  background-color: rgba(6, 9, 15, 1); 
+  box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 1);
+}
+.button2:hover {
+  background-color: rgba(6, 9, 15, 1); 
+  box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 1);
+}
+section span{
+  color:rgba(255, 255, 255, 1); 
+}
+section p {
+  text-align: center;
+  color:rgba(255, 255, 255, 1);
+  font-size: 18px;
+}
+.minha {
+  width:200px ;
+  height:auto;
+  margin-left: 45%;
+  border-style: outset;
+  text-align: center;
+
+}
+section p span {
+    color:rgba(223, 0, 0, 1);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding: 10px 0;
+  color: rgba(0, 0, 0, 1);
+  font-family: 'DM Sans', sans-serif;
+}
+.container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  
+}
+.formulario {
+  flex: 1;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  width: 50%;
+  color: rgba(223, 0, 0, 1); 
+  background-color: rgba(255, 255, 255, 0.8); 
+  border: 1px solid rgba(223, 0, 0, 1);
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.formulario input[type="submit"] {
+  background-color: rgba(223, 0, 0, 1); 
+  color: rgba(255, 255, 255, 1); 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+.formulario input[type="submit"]:hover {
+  background-color: rgba(200, 0, 0, 1); 
+}
+.skills {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+.skills h1 {
+  margin-bottom: 20px;
+  font-family: 'Kratos TrueType - GOD $ WAR';
+  color:rgba(223, 0, 0, 1);
+  font-size: 54px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.imagens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.imagens img {
+  width:100px;
+  width: calc(25%);
+  margin-bottom: 20px;
+  margin-left: 10px;
+  height: 200px;
+}
+body {
+  background-image: url(./img/714040.jpg);
+  background-size: cover;
+}
+
+@font-face {
+  font-family: 'Kratos TrueType - GOD $ WAR';
+  src: url('./fontes/KratosTrueType-GODWAR.woff2') format('woff2'),
+      url('./fontes/KratosTrueType-GODWAR.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.formulario h1{
+  font-family: 'Kratos TrueType - GOD $ WAR';
+  color:rgba(223, 0, 0, 1);
+  font-size: 54px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+.formulario div{
+  color: rgba(0, 0, 0, 1);
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'DM Sans', sans-serif;
+  height: 50px;
+}
